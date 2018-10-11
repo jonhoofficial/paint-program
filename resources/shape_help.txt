@@ -1,0 +1,17 @@
+<shape>.txt files are in an HTML structure. This meaning that it follows HTML coding protocols. The first and last line of a <shape>.txt file should always
+have a <html> tag. In order to go to a new line in the tool tip simply put a <br> tag where you would like the new line to begin. <body> defines where the
+text body begins and ends (similar syntax to <html> tag). The <body> tag is not necessarily needed in our project however, it is good practice when doing HTML
+type files to include as many tags as possible. Please reference: https://www.w3schools.com/tags/ for more possible tags. A sample <shape>.txt file is:
+
+<html>
+LOREM IPSUM:<br>
+<body>
+LOREM IPSUM LOREM IPSUM LOREM IPSUM <br>
+LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM 
+<body>
+<html>
+
+Which would produce an tipToolText like:
+LOREM IPSUM:
+LOREM IPSUM LOREM IPSUM LOREM IPSUM 
+LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM 

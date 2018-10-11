@@ -1,0 +1,6 @@
+<html>
+Rectangle:<br>
+<body>
+Draw a rectangle according to mouse specified dimensions.
+<body>
+<html>

@@ -1,0 +1,914 @@
+# User Stories/Bugs (add as appropriate), modify at each Sprint Planning Meeting
+# If a USER STORY is large, break it into smaller user stories.
+# For example, the color chooser user story involves: 
+# 1 Color chooser UI (which could be a USER STORY)
+# 2 Implementation of selected color into the drawing stream.
+
+# INCOMPLETED USER STORIES/BUGS BELOW #########################################
+
+
+# COMPLETED USER STORIES/BUGS BELOW ###########################################
+# USER STORY
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1 : <MEMBER1_ID-HIDDEN>
+NAME     : Draw Circle
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : To click the center of the circle, drag, and release to specify
+           a circle to be drawn in the current style.
+SO THAT  : I can add circles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2 : <MEMBER2_ID-HIDDEN>
+NAME     : Draw Circle Feedback
+OWNER    : <MEMBER2_NAME-HIDDEN> 
+PRIORITY : Medium
+ESTIMATE : 2 Hour
+AS A     : user
+I WANT   : As a user is specifying a Circle, during the drag, a 'current'
+           circle should be on display. As the user drags, the 'current'
+           circle changes in real time so that a circle is drawn with
+           centre at users initial circle click, with radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the circle I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3 : <MEMBER1_ID-HIDDEN>
+NAME     : Draw Rectangle
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : To click on one corner of a rectangle, drag, and release to 
+		   specify two corners of a rectangle to be drawn in the current style.
+SO THAT  : I can add rectangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 4 : <MEMBER2_ID-HIDDEN>
+NAME     : Draw Rectangle Feedback
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the rectangle in mid construction.
+SO THAT  : I can see the rectangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 5A : <MEMBER3_ID-HIDDEN>
+NAME     : Color Selector - GUI Design Only
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 2 Hours
+AS A     : user
+I WANT   : To be able to view the different colour options
+SO THAT  : So that the user can select one of the coloured to be reflected on 
+			either the outline or fill (depending on which one is selected)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 5B (Must wait for 5A to be completed) : <MEMBER4_ID-HIDDEN>
+NAME     : Color selector - Functionality Only
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 2 Hours
+AS A     : user
+I WANT   : To be able to select the current drawing color, to be applied
+           to subsequent shapes. Example: 
+           		selects color red 
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select color green
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two red circles and a red rectangle as well as
+           	two green rectangles and a green squiggle
+SO THAT  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 6A : <MEMBER3_ID-HIDDEN>
+NAME     : Fill style selector - GUI Design Only
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1 hours
+AS A     : user
+I WANT   : To be able to view the options to select the current drawing style (filled or outline), 
+		   to be applied to subsequent shapes. 
+SO THAT  : If the user select outline, the drawn shape should have a clear background with a coloured
+			border and if the user selects fill, the drawn shape should have no outline and a coloured
+			background.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 6B : <MEMBER4_ID-HIDDEN>
+NAME     : Fill style selector - Functionality Only
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : To be able to select the current drawing style (filled or outline), to be applied
+           to subsequent shapes. Example: 
+           		selects fill style solid
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select fill style outline
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two solid circles and a solid rectangle as well as
+           	two outlined rectangles and a squiggle
+SO THAT  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 7A : <MEMBER3_ID-HIDDEN>
+NAME     : Line thickness selector - GUI Design Only
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : To be able to see the line thickness options that will be applied
+           to subsequent shapes.
+SO THAT  : When a user select one of the three thicknesses, the line thickness
+			will be reflected when a new shape is drawn.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 7B : <MEMBER4_ID-HIDDEN>
+NAME     : Line thickness selector - Functionality Only
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : To be able to select the current line thickness, to be applied
+           to subsequent shapes. Example:
+           		select fill style outline 
+           		selects line thickness 1
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select line thickness 9
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two thinly outlined circles and a thinly outlined 
+           	rectangle as well as two thickly outlined rectangles and a thick squiggle
+SO THAT  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 8 : <MEMBER1_ID-HIDDEN>
+NAME     : Draw Square
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : Same as rectangle, but square
+SO THAT  : I can add squares to feedback.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 9 : <MEMBER2_ID-HIDDEN>
+NAME     : Draw Square Feedback
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 2 Hour
+AS A     : user
+I WANT   : Same as rectange but square
+SO THAT  : see the square im drawing.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 10 : <MEMBER1_ID-HIDDEN>
+NAME     : Draw Polyline
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : To click the start of the line and drag to the other end.
+SO THAT  : I can add lines to canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 11 (PolylineFeedback branch) : <MEMBER1_ID-HIDDEN>, <MEMBER2_ID-HIDDEN>
+NAME     : Draw Polyline Feedback
+OWNER    : <MEMBER1_NAME-HIDDEN>/<MEMBER2_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 2 Hour
+AS A     : user
+I WANT   : To be able to see the line I'm drawing before finalizing it
+SO THAT  : I know what it'll look like before I leave it.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 12 : <MEMBER3_ID-HIDDEN> / <MEMBER2_ID-HIDDEN>
+NAME     : Undo and Eraser
+OWNER    : <MEMBER3_NAME-HIDDEN> / <MEMBER2_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : To be able to undo the last shape I made or erase parts of the artboard.
+SO THAT  : I can erase and undo my mistakes
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 13 : <MEMBER2_ID-HIDDEN>
+NAME     : Pointer view
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : To be able to better see the area im clicking and drawing on.
+SO THAT  : I can draw better, and better see the lines where im gonna draw.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 14 : <MEMBER2_ID-HIDDEN>
+NAME     : New
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : To be able to better Clear drawing area
+SO THAT  : Start over.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 15 : <MEMBER3_ID-HIDDEN>
+NAME     : Exit
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : MEDIUM
+ESTIMATE : 1 Hour
+AS A     : user
+I WANT   : To be able to exit the program via menu bar
+SO THAT  : The program will close.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.1 : <MEMBER4_ID-HIDDEN>
+NAME     : Implement Polygon
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 2 Hours
+ISSUE    : we want polyline to auto complete and make a shape.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.2 : <MEMBER3_ID-HIDDEN>
+NAME     : Add thickness slider
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 1h
+ISSUE    : Add the slider in place of the current thickness buttons
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.3 : <MEMBER1_ID-HIDDEN>
+NAME     : Implement Line
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 2 Hours
+As a     : user
+I want to: Draw Single lines
+So that  : I don't have to start a new polyline everytime.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.4 : <MEMBER2_ID-HIDDEN>
+NAME     : Implement Bucket Fill
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 2 Hours
+As a     : user
+I want to: Be able to fill in a section
+So That  : I can fill in a section wish color.
+NOTE: PARTIALLY IMPLEMENTED, BETA FEATURE.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.8 : <MEMBER3_ID-HIDDEN>
+NAME     : Improved color chooser
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 4 Hours
+As a     : user
+I want to: See more color choices.
+So that  : Select more colors.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.9 : <MEMBER3_ID-HIDDEN>
+NAME     : REFORMAT GUI
+OWNER    : <MEMBER3_NAME-HIDDEN> 
+PRIORITY : Low
+ESTIMATE : 2 Hours
+As a     : user
+I want to: see a newly formatted GUI that incorporates the features added
+So that  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.10 : <MEMBER3_ID-HIDDEN>
+NAME     : Implement updated icons
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : Very Low
+ESTIMATE : < 1 Hour
+As a     : user
+I want to: be able to see unique icons for the shapes and options I am choosing.
+So that  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.11 : <MEMBER4_ID-HIDDEN>
+NAME     : Context menu
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 1 Hour
+As a     : user
+I want to: be able to know what each specific tool is capable of doing.
+So that  : I know which tool is best to use, and how to use each tool.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.12 : <MEMBER3_ID-HIDDEN>
+NAME     : Invert Colour
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : Very Low
+ESTIMATE : 1 Hour
+As a     : user
+I want to: invert the selected colour I chose and make that the new selected
+			colour
+So that  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.13 : <MEMBER3_ID-HIDDEN>
+NAME     : Window Tab on the menu
+OWNER    : <MEMBER3_ID-HIDDEN>
+PRIORITY : Very Low
+ESTIMATE : 1 Hour
+As a     : user
+I want to: I want to be able to minimize and maximimze the program window.
+So that  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.14 : <MEMBER4_ID-HIDDEN>
+NAME     : Shape border
+OWNER    : <MEMBER4_ID-HIDDEN>
+PRIORITY : Very Low
+ESTIMATE : 1 Hour
+As a     : user
+I want to: be able to have a black border around shapes if I want to.
+So that  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.15 : <MEMBER4_ID-HIDDEN>
+NAME     : Shape border color
+OWNER    : <MEMBER4_ID-HIDDEN>
+PRIORITY : Very Low
+ESTIMATE : 1 Hour
+As a     : user
+I want to: be able to select the color of the border around the shape.
+So that  : the border is not always black.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.16 : <MEMBER1_ID-HIDDEN>
+NAME     : Keyboard Commands
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 3 Hours
+AS A 	 : User
+I WANT 	 : To be able to use keyboard short cuts to perform certain 
+		   tasks while working in the program.
+SO THAT	 : I can be efficient about my work.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.17 : <MEMBER1_ID-HIDDEN>
+NAME     : Draw a Star
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 2 Hours
+AS A 	 : User
+I WANT 	 : To be able to draw a star shape.
+SO THAT	 : I can have more creative options.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.19 : <MEMBER3_ID-HIDDEN>
+NAME     : Add colour menu items
+OWNER    : <MEMBER3_NAME-HIDDEN> 
+PRIORITY : Low
+ESTIMATE : 2 Hours
+As a     : user,?. 
+I want to: be able to to see colour options from the menu bar
+So that  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.20 : <MEMBER2_ID-HIDDEN>
+NAME     : Add transparent color options.
+OWNER    : <MEMBER2_NAME-HIDDEN> 
+PRIORITY : Low
+ESTIMATE : 1 Hours
+As a     : user. 
+I want to: Have the option to choose translucent colors.
+So that  : I can draw translucent shapes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.21 : <MEMBER3_ID-HIDDEN>
+NAME     : Add Tools Menu Options
+OWNER    : <MEMBER3_NAME-HIDDEN> 
+PRIORITY : Medium
+ESTIMATE : 1 Hours
+As a     : user. 
+I want to: be able to select the various option tools from the menu bar
+So that  : there is an alternative way of selecting the different paint options
+--------------------------------------------------------------------------
+# BUGS
+--------------------------------------------------------------------------
+TYPE     : BUG 1 : <MEMBER4_ID-HIDDEN>
+NAME     : Icons instead of text for drawing mode selection
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 1 Hour
+ISSUE    : Would be nice to have icons instead of "Circle", "Rectangle", ...
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2 : <MEMBER4_ID-HIDDEN>
+NAME     : Drawing selection mode not indicated
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 1 Hour
+ISSUE    : Currently ,you can't tell which mode "Circle", "Rectangle", ...
+           is currently selected. Is JButton correct, is there a way
+           to highlight the currently selected mode?
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 5 : <MEMBER2_ID-HIDDEN>
+NAME     : Squiggle is broken
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Circle
+ESTIMATE : 1 hour
+ISSUE    : Squiggles are connected to each other by a straight line. Each drag
+		   of the mouse should be a separate squiggle. Possibly
+           the issue is with the representation of the squiggles in the Model.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 6 : <MEMBER1_ID-HIDDEN>
+NAME     : Circle drawing is broken
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1 Hour
+ISSUE    : The first click should specify the center of the circle, with
+           a drag for the radius. This is not the case in the current
+           implementation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 7 : <MEMBER2_ID-HIDDEN>
+NAME     : Circle drawing is broken (again) radius issue
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1 Hour
+ISSUE    : When clicking and dragging to select radius of circle, when you 
+		   go back in opposite direction drawing is distorted/ wrong.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 8 : <MEMBER2_ID-HIDDEN>
+NAME     : Drawing a rectangle with negative dimensions
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 2 hours
+ISSUE    : When clicking and dragging to select height and width of rectangle,
+		   if either of those dimensions is negative (goes to the left or above
+		   intial mouse click), the resulting rectangle will have a white fill
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 9 : <MEMBER2_ID-HIDDEN>
+NAME     : Drawing a square with negative dimensions
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 2 hours
+ISSUE    : When clicking and dragging to select height and width of square,
+		   if either of those dimensions is negative (goes to the left or above
+		   intial mouse click), the resulting square will have a white fill
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 10 : <MEMBER3_ID-HIDDEN>
+NAME     : Colour Application to fill/outline colour boxes
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1h
+ISSUE    : When a colour is selected, it is not indicated which colour is selected. Find a
+			method to show the new colour that is selected.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 11 : <MEMBER3_ID-HIDDEN>
+NAME     : Colour applied to only outline
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : Unknown
+ISSUE    : When a colour is selected, it is only applied to the outline of the
+			shape despite whichever one is selected
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 12
+NAME     : Colour Changes Scribble
+OWNER    : N/A (SELF-RESOLVED)
+PRIORITY : High
+ESTIMATE : Unknown
+ISSUE    : When a colour is chosen, the scribble line also changes its colour to the
+			chosen colour upon creating a new shape.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 13
+NAME     : Colour Changes Scribble
+OWNER    : N/A (Self-Resolved Upon Other Bug Fix)
+PRIORITY : High
+ESTIMATE : Unknown
+ISSUE    : When a colour is chosen, the scribble line also changes its colour to the
+			chosen colour upon creating a new shape.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 14
+NAME     : Line Changes Scribble
+OWNER    : N/A (Self-Resolved Upon Other Bug Fix)
+PRIORITY : High
+ESTIMATE : Unknown
+ISSUE    : When a line thickness is chosen, the scribble line also changes its thickness
+			to the chosen colour upon creating a new shape.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 15 : <MEMBER3_ID-HIDDEN>
+NAME     : Line thickness indicator
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1h
+ISSUE    : Line thickness selection is not visibly shown which is indicated or 
+			reflected in the GUI.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 16 : <MEMBER3_ID-HIDDEN>
+NAME     : Fill/Outline Selection indicator
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1h
+ISSUE    : Upon choosing a fill or outline type, the selection is detected. However, the selection
+			is not determined as in the mode is not properly selected. Find a way to make the program
+			know which of the two is selected once the selection is made.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 17 : <MEMBER1_ID-HIDDEN>
+NAME     : Right clicking in Polyline tool causes Error
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : LOW
+ESTIMATE : 20 Minutes
+AS A     : Developer
+I WANT   : To have no errors appear in my console.
+SO THAT  : I know there are no issues in my running code.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.1 : <MEMBER4_ID-HIDDEN>
+NAME     : Architecture for drawing shapes can be improved
+OWNER    : <MEMBER4_ID-HIDDEN>
+PRIORITY : High
+ESTIMATE : 3 hours
+ISSUE    : The architecture can be improved if we implement the Command Design 
+Pattern to draw shapes as follows:
+
+The PaintModel should use the command design pattern. 
+That is, each shape knows how to draw itself, so there is a single list of 
+DrawingCommands maintained by the PaintModel and used by the PaintPanel.
+paintComponent simply asks the PaintModel to ask command to execute(g2d).
+The simplest way to make this happen is to make each shape implement the 
+DrawingCommand interface which requires execute(g2d) to be implemented.
+Well sort of.
+
+NOTE: The PaintModel does know how to logically draw itself, so does
+know about strokes and pen colors etc. Depending on how much you want
+to split off the logical from the GUI, it may not have to know how to 
+draw on the screen. This is a subtle difference. For example, the
+following logically describes a scene, without actually knowing
+how to draw it on the screen (using j2d)...
+
+Color = green
+Fill = off
+Border = on
+BorderWidth = 10
+Circle radius 10 at 12,15
+Color = red
+Fill = on
+FillColor = black
+Border = on
+BorderWidth = 7
+Square width 20 at 100,200
+
+If you want to build a more 'logical' PaintModel, you can consider ...
+
+1) Create a mirror hierarchy for Shape, this mirror hirerachy 
+has things like DrawableCircle which has a Circle. The DrawableCircle
+knows how to draw the instance of Circle it holds. Each Shape will
+still need information about its color, and stroke, one way or another.
+
+OR
+
+2) Lookup and apply the Visitor design pattern to the more logical
+PaintModel.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.2 : <MEMBER1_ID-HIDDEN>
+NAME     : Architecture for handling shape modifiers can be improved 
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 3 Hours
+ISSUE    : The architecture can be improved if we implement the Command Design 
+Pattern to handle changes to the graphics contex such as changing drawing 
+color, stroke width etc. You can accomplished this by wrapping the changes
+to the graphics context in a DrawingCommand. This way these changes can be
+added to the Bug 2.1 DrawingCommand list. That is, these new types of 
+DrawingCommands appear on PaintPanel's list right along side 
+the Shape type DrawingCommands.
+
+		   This was completed by storing the colour, stroke, and other
+		   related information inside of the shape.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.3 : <MEMBER1_ID-HIDDEN>
+NAME     : Architecture behind choosing drawing mode is poor
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 3 Hours
+ISSUE    : A better architecture behind selecting a drawing mode can be created 
+by implementing the Factory Design Pattern as follows:
+
+The factory design pattern should be used by the paint buttons. 
+The factory is responsible for creating different ShapeManipulatorStrategy 
+instances (see BUG 2.4). That is, when a button is pressed, the appropriate 
+ShapeManipulatorStrategy is created and installed in the PaintPanel. 
+Note that you can associate text with a button, even if you 
+display an ImageIcon. The string attached to the button causes the right choice 
+of object creation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.4 : <MEMBER2_ID-HIDDEN>
+NAME     : Architecture behind creating shape instances is poor
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : 
+ESTIMATE : 
+ISSUE    : A better architecture for creating shape instances so that it is 
+more flexible, and easier to work with can be created using the Strategy Design 
+pattern as follows:
+
+Create class/abstract class/interface  ShapeManipulatorStrategy as well 
+as subclasses/implementators for each type of Shape. Call these the
+concrete ShapeNamipulatorStrategies
+
+The concrete ShapeManipulatorStrategies are responsible for 
+
+1. Creating instances of Shape and putting them on top of 
+   the PaintModel command stack.
+
+2. Understanding how mouse events modify the shape at the top of the 
+   PaintModel command stack.
+
+3. Calling the PaintPanel repaint at appropriate times.
+
+This strategy can be put in place either by having PaintPanel's mouse 
+events forwarded through PaintPanel into the current strategy, or by 
+simply switching the PaintPanel's listeners as appropriate.
+NOTE: DONE THROUGH SHAPES SUPERCLASS
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.5 : <MEMBER3_ID-HIDDEN>
+NAME     : Eraser Button Not Showing After Line Implementation
+OWNER    : <MEMBER3_NAME-HIDDEN> 
+PRIORITY : High
+ESTIMATE : 1h
+ISSUE    : The eraser button is not showing up upon GUI start up.
+			Only the shape design symbols are showing up.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.6 : <MEMBER4_ID-HIDDEN>
+NAME     : Polygon drawing broken
+OWNER    : <MEMBER4_NAME-HIDDEN> 
+PRIORITY : High
+ESTIMATE : 1h
+ISSUE    : Polygon shape is not being drawn properly. Required 3 clicks 
+			to place two points of shape
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.7 : <MEMBER4_ID-HIDDEN>
+NAME     : File IO for txt
+OWNER    : <MEMBER4_NAME-HIDDEN> 
+PRIORITY : High
+ESTIMATE : 30 minutes
+ISSUE    : TXT files will not be properly loaded in linux OS in current
+			config.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.8 : <MEMBER4_ID-HIDDEN>
+NAME     : Constructor for lines in Shapes.java
+OWNER    : <MEMBER4_NAME-HIDDEN> 
+PRIORITY : Low
+ESTIMATE : 30 Minutes
+ISSUE    : The current constructor for lines in Shapes.java just sends a
+			hard coded value which is bad practice. Add additional 
+			constructor to eliminate a hard coded value.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.9 : <MEMBER4_ID-HIDDEN>
+NAME     : Architecture for file IO can be improved
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 10 Minutes
+ISSUE    : Can improve the complexity of code for file I/O for images
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.10 : <MEMBER4_ID-HIDDEN>
+NAME     : Star outline color broken
+OWNER    : <MEMBER4_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 10 Minutes
+ISSUE    : Outline for star is not being set.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.11 : <MEMBER2_ID-HIDDEN>
+NAME     : colourChooserPanel Closes app
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : <1 Hour
+ISSUE    : Upon closing color chooser panel, app closes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.12 : <MEMBER2_ID-HIDDEN>
+NAME     : Stack for Shapes
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : low
+ESTIMATE : 1 hour
+ISSUE    : Simpler, better container for the shapes can be used.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.13 : <MEMBER2_ID-HIDDEN>
+NAME     : Smoother lines
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : low
+ESTIMATE : 1 hour
+ISSUE    : lines not blocky, smooth and circular edges
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.14 : <MEMBER1_ID-HIDDEN>
+NAME     : Static References and Hidden Button
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 30 Minutes
+ISSUE    : Static references were in StyleSelectorPanel that did not need 
+		   to be there, so they were removed. Another issue was made apparent
+		   at the same time, the confirm button in colourChooserPanel was not
+		   visible on some computers, so dimensions were changed to make it
+		   visible.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.15 : <MEMBER2_ID-HIDDEN>
+NAME     : Drag not working on first Polyline/gon click.
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : medium
+ESTIMATE : 1 Hour
+ISSUE    : the first click doesnt allow to draw, only anchors at release point.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.16 : <MEMBER2_ID-HIDDEN>
+NAME     : New doesnt remove old Polyline or Polygon
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : medium
+ESTIMATE : 1 Hour
+ISSUE    : when starting a new canvas, if drawing a polygon or polyline, it redraws it after the new one starts.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.17 : <MEMBER2_ID-HIDDEN>
+NAME     : Star Broke After Bug 2.15
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : < 1 Hour
+ISSUE    : star broke.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.18 : <MEMBER1_ID-HIDDEN>
+NAME     : New does not reset buttons
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 20 minutes
+ISSUE    : When creating a new canvas, it did not properly default to
+		   initial settings. Now it properly sets the tool to Circle and
+		   is in a usable state.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.19 : <MEMBER4_ID-HIDDEN>
+NAME     : Fixed Colour Selection
+OWNER    : <MEMBER4_NAME-HIDDEN> 
+PRIORITY : Medium
+ESTIMATE : 2 hours
+ISSUE    : Colour selection not working after code improvements.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.20 : <MEMBER3_ID-HIDDEN>
+NAME     : Custom Colour Preview Button
+OWNER    : <MEMBER3_NAME-HIDDEN> 
+PRIORITY : High
+ESTIMATE : 1 hour
+ISSUE    : Colour preview button (upon opening custom colour dialogue) is 
+			not working
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.21 : <MEMBER3_ID-HIDDEN>
+NAME     : Invert Colour button fix
+OWNER    : <MEMBER3_NAME-HIDDEN> 
+PRIORITY : High
+ESTIMATE : 1 hour
+ISSUE    : When the inverted button is pressed and outline colour selection
+			is selected, the invert uses the background color to invert the
+			colours and modifies the outline colour.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.22 : <MEMBER2_ID-HIDDEN>
+NAME     : Trasnparent Preview Displaying preview.
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 1 Hour
+ISSUE    : When Using transparent colors, the preview box displays a button saying preview on the back.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.23 : <MEMBER2_ID-HIDDEN>
+NAME     : Inverse Button doesnt keep transparacy
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 1 Hour
+ISSUE    : When Using transparent colors, the inverse button makes it not transparent.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.24 : <MEMBER3_ID-HIDDEN>
+NAME     : Fix JDialogue Error in Beta Features and fix broken menu items
+OWNER    : <MEMBER3_NAME-HIDDEN>
+PRIORITY : High
+ESTIMATE : 1 Hour
+ISSUE    : Menu items for some options are not working and JDialogue is not appearing the correct buttons.
+--------------------------------------------------------------------------
+
+# OMITTED USER STORIES/BUGS BELOW   ###########################################
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.5 : <MEMBER2_ID-HIDDEN>
+NAME     : Select
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 2 Hours
+As a     : user
+I want to: Select a shape/section
+So that  : cut/paste later.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.6 : <MEMBER2_ID-HIDDEN>
+NAME     : Cut/Copy
+OWNER    : <MEMBER2_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 2 Hours
+As a     : user
+I want to: Copy a shape
+So that  : paste it later.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.7 : <MEMBER2_ID-HIDDEN>
+NAME     : Paste
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 2 Hours
+As a     : user
+I want to: paste shape I selected eariler
+So that  : paste it later.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 3
+NAME     : Architecture behind choosing selection mode is poor 
+			(ON-HOLD as requested by Arnold)
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 3 Hour
+ISSUE    : Code is not modular and is difficult to expand. Need a better
+           architecture behind selecting a drawing mode, and handling
+           the drawing events. Consider some design patterns here.
+           Refactor ShapeChooserPanel and PaintPanel to get rid of the
+           'if' blocks in the PaintPanel mouse event code.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 4
+NAME     : Architecture behind Model is poor 
+			(ON-HOLD as requested by Arnold)
+OWNER    : <MEMBER1_NAME-HIDDEN>
+PRIORITY : Medium
+ESTIMATE : 3 hours
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.18 : <MEMBER4_ID-HIDDEN>
+NAME     : File save/ open
+OWNER    : <MEMBER4_ID-HIDDEN>
+PRIORITY : Low
+ESTIMATE : 1 Hour
+As a     : user
+I want to: I want to be able to open and save projects I have been working on.
+So that  : 
+--------------------------------------------------------------------------
+

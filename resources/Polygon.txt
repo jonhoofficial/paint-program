@@ -1,0 +1,7 @@
+<html>
+Polygon:<br>
+<body>
+Draw a non-uniform shape, a filled polygon will not start drawing until<br>
+3 points are selected using left click. In order to terminate the polygon right click.
+<body>
+<html>

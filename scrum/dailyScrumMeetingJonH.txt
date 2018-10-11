@@ -1,0 +1,127 @@
+# Fill in, commit and push each day.
+# Group Member: Jonathan Ho
+
+###### SPRINT 1: Assignment 2 Part 1
+Oct 23, 2017
+	Yesterday : N/A
+	Today     : Complete contact information input and create branch
+	Obstacles : Ensuring steps are following properly to create user branch
+
+Oct 24, 2017
+	Yesterday : Contact information submitted and branch created
+	Today     : Review assignment and ensure starter code is understood
+	Obstacles : None
+
+Oct 25, 2017
+	Yesterday : Review assignment details and starter code
+	Today     : Discuss with group members on roles and individual work loads
+	Obstacles : None
+
+Oct 26, 2017
+	Yesterday : Discuss with group members on roles and individual work loads
+				for this assignment. This includes assigning user stories, sorting
+				out tasks and commit schedules.
+	Today     : Attempt to start on UserStory 5 and 6. Create the panel and some
+				components.
+	Obstacles : Creating the colour selection buttons.
+
+Oct 27, 2017
+	Yesterday : Started working on user story 5 and 6.
+	Today     : No work will be completed today due to the CSC207 midterm. Work will continue tomorrow.
+				If time is permitted, work will be continued for user story 5, 6 and 7.
+	Obstacles : None
+
+Oct 28, 2017
+	Yesterday : Time was permitted yesterday and work was continued to user story 5,6,
+	Today     : User stories are now complete. Final testing and code clean ups.
+	Obstacles : None
+
+Oct 29, 2017
+	Yesterday : Code was cleaned up and commented in order to provide clarity to other group members
+				working on user stories 5B,6B,7B
+	Today     : No work is completed today. Awaiting next set of instructions
+	Obstacles : None
+
+Oct 30, 2017
+	Yesterday : No work was completed today.
+	Today     : No work is completed today. User stories assigned have been completed. 
+				Awaiting next set of instructions.
+	Obstacles : None
+
+Oct 31, 2017
+	Yesterday : No work was completed yesterday
+	Today     : Review code and test features to ensure fixed bugs are up to standard. Merge User story 
+				6A + 7A into 5A in sprintBacklog
+	Obstacles : None
+
+Nov 1, 2017
+	Yesterday : Code review and merge user stories
+	Today     : Complete Bug 10 and Figure out the cause of Bug 11
+	Obstacles : Seperating the stroke colour and fill colour in order to fix Bug 11
+	
+Nov 2, 2017
+	Yesterday : Complete Bug 10 and Attempt to do Bug 11
+	Today     : Complete Bug 11 with updated code
+	Obstacles : Storing the fill and outline colour and using getter/setter to pull 
+				the color information
+	
+Nov 3, 2017
+	Yesterday : Completed Bug 11 with new code. Changed how colours are selected	
+	Today     : No work is completed today
+	Obstacles : None
+
+Nov 4, 2017
+	Yesterday : No work was completed yesterday
+	Today     : Add UTORID and add eraser and undo buttons to GUI
+	Obstacles : Adding the image to the button
+
+Nov 5, 2017
+	Yesterday : Add Eraser and Undo buttons to GUI
+	Today     : Clean up code
+	Obstacles : None
+	
+###### SPRINT 2: Assignment 2 Part 2
+Nov 6, 2017 
+	Yesterday : Clean up code for submission
+	Today     : No work was completed
+	Obstacles : N/A
+
+Nov 7, 2017
+	Yesterday : No work was completed yesterday
+	Today     : Attempt to implement thickness slider
+	Obstacles : Change the code so it accepts the various thicknesses on the slider (Implement to fix current thicknesses first)
+	
+Nov 8, 2017
+	Yesterday : Thickness slider code added but not tested
+	Today     : Slider is being put on hold due to upcoming CSC236 problem set.
+	Obstacles : None
+	
+Nov 9, 2017
+	Yesterday : No Work was Completed yesterday	
+	Today     : Attempt to add non-functioning thickness slider onto GUI
+	Obstacles : None 
+	
+Nov 10, 2017
+	Yesterday : Slider has been implemented but it is not functioning
+	Today     : Conduct Scrum Meeting Update and implement functionality code for the thickness slider
+	Obstacles : Setting and implementing the change listener
+	
+Nov 11, 2017
+	Yesterday : Scrum meeting was conducted and thickness functionality code has been added and is functioning.
+	Today     : Completed Bug 2.5, User story 2.10 and Start on userStory 2.8
+	Obstacles : Creating a new pop up frame for the new colour chooser
+	
+Nov 12, 2017
+	Yesterday : Completed bug 2.5, user story 2.10 and start user story 2.8 (learn to create the pop up frame)
+	Today     : Implement and complete user story 2.8 and 2.12
+	Obstacles : Getting the colours the show up, selected and transfer to the paint program
+	
+Nov 13, 2017
+	Yesterday : Complete user story 2.8 and 2.12
+	Today     : Finalize code and finish user story 2.9 and 2.19
+	Obstacles : None
+	
+Nov 14, 2017
+	Yesterday : Completed user story 2.9 and 2.19.
+	Today     : Finalize code and Submit by today to avoid late penalty.
+	Obstacles : None 

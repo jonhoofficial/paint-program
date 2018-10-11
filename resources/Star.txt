@@ -1,0 +1,6 @@
+<html>
+Star:<br>
+<body>
+Draw a star, size determined by how far you drag the mouse from the center.
+<body>
+<html>

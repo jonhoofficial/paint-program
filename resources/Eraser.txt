@@ -1,0 +1,6 @@
+<html>
+Eraser:<br>
+<body>
+Erase all shapes under the tool to a white background.
+<body>
+<html>

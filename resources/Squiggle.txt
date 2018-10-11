@@ -1,0 +1,6 @@
+<html>
+Squiggle:<br>
+<body>
+Draw a non-uniform line by dragging the mouse with left mouse button clicked.
+<body>
+<html>

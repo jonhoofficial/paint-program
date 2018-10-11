@@ -1,0 +1,6 @@
+<html>
+Polyline:<br>
+<body>
+Draw a series of straight lines between points, in order to terminate right click.
+<body>
+<html>

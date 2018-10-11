@@ -1,0 +1,6 @@
+<html>
+Square:<br>
+<body>
+Draw a square using mouse specified dimensions, it will use the smallest <br>dimensions in terms of x and y.
+<body>
+<html>
